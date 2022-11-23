@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="25" failures="0" name="ru.TestSite" time="133.813" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/alekseiegorov/Documents/GitHub/FinalTestProjectSF"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/alekseiegorov/Documents/GitHub/FinalTestProjectSF"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/cc/hwh6ppvd4d73xst6lzmwjf940000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/alekseiegorov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/alekseiegorov"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="alekseiegorov"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="ru.TestSite" name="goTheButtonAllCourses" time="35.001"/>
+  <testcase classname="ru.TestSite" name="checkMessageEmptyFields" time="4.564"/>
+  <testcase classname="ru.TestSite" name="goTheButtonAllCourses2" time="8.55"/>
+  <testcase classname="ru.TestSite" name="goTheButtonAllCourses3" time="5.561"/>
+  <testcase classname="ru.TestSite" name="checkMessageIncorrectMail" time="3.172"/>
+  <testcase classname="ru.TestSite" name="checkMessageIncorrectName" time="3.248"/>
+  <testcase classname="ru.TestSite" name="checkMessageIncorrectPhone" time="4.686"/>
+  <testcase classname="ru.TestSite" name="searchVacancyPositive" time="12.209"/>
+  <testcase classname="ru.TestSite" name="searchVacancyNegative" time="9.248"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage1" time="6.834"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage2" time="1.506"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage3" time="1.787"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage4" time="1.039"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage5" time="1.042"/>
+  <testcase classname="ru.TestSite" name="moveButtonBlogPage6" time="0.882"/>
+  <testcase classname="ru.TestSite" name="searchCoursesDropBoxMenu" time="5.383"/>
+  <testcase classname="ru.TestSite" name="goTheButtonVacancy" time="3.93"/>
+  <testcase classname="ru.TestSite" name="goTheButtonContacts" time="4.648"/>
+  <testcase classname="ru.TestSite" name="searchDictionaryPositive" time="2.057"/>
+  <testcase classname="ru.TestSite" name="searchDictionaryNegative" time="1.058"/>
+  <testcase classname="ru.TestSite" name="checkMessageShortPhone" time="4.128"/>
+  <testcase classname="ru.TestSite" name="searchBlogPositive" time="2.681"/>
+  <testcase classname="ru.TestSite" name="searchBlogNegative" time="1.2"/>
+  <testcase classname="ru.TestSite" name="searchCoursesDropBoxMenu2" time="5.707"/>
+  <testcase classname="ru.TestSite" name="goTheButtonAllReview" time="3.692"/>
+</testsuite>
