@@ -187,26 +187,6 @@ public class TestSite {
         assertEquals("Вакансии", backText);
     }
     @Test
-    public void searchVacancyPositive(){
-        page.goMain();
-        buttonClick.clickButtonPage("Вакансии");
-        inputText.inputSearchTextVacancy("Менеджер по работе с партнерами");
-
-        String backText = assertText.getActiveTextPageDiv("Найдено:");
-        assertEquals("Найдено: 1", backText); //На момент написания, при поиске выдавало одну вакансию
-    }
-    @Test
-    public void searchVacancyNegative(){
-        page.goMain();
-        buttonClick.clickButtonPage("Вакансии");
-        inputText.inputSearchTextVacancy("efgrgs");
-
-        String backText = assertText.getActiveTextPageDiv("Ничего не найдено");
-        assertEquals("Ничего не найдено",backText);
-    }
-
-
-    @Test
     public void checkMessageIncorrectMail(){
         page.goMain();
         inputText.inputName("Антон");
